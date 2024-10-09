@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90FD4F30-B3F6-4D0F-4DCF-22C440D32DB0" name="T_SMO_PRODUTO_MODELO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>216ECF5D-CF62-A1B9-8791-14A5A7BD3945</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modelo" id="FD902C16-0C87-5728-EE61-B7DFEB844230">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>01ABFACD-A10A-C53B-D4E2-22A0108B19C9</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SMO_PRODUTO_MARCA_id_marca" id="DFCE6A82-459E-2D9C-FD3F-059772B1AE25">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>6CDB6A18-8ABC-7760-9CAC-0424CFF57C52</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3424CCF-C3D2-9340-E767-172D2D2033FF" referredColumn="12069B20-C48B-E927-61A1-78084F1D5B08"/>
+</associations>
+</Column>
+<Column name="nome" id="4FB987F3-4D84-F1D8-C7A8-58A5CF7910F8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>EF63FABC-A473-145D-5431-3ABCA2EFC5D5</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="610A348C-6B69-D794-6BB5-8DFF4F0CB26B" name="T_SMO_PRODUTO_MODELO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>3354B27E-E7E6-D877-D9AE-18438C216067</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD902C16-0C87-5728-EE61-B7DFEB844230"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="552D41A7-2F7B-3F77-45AF-0B2A7973E9E7" name="T_SMO_PRODUTO_MODELO__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9A5C6037-3226-5CCD-7B53-D8F395232A9C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DFCE6A82-459E-2D9C-FD3F-059772B1AE25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADB96D88-BDC4-D2D2-76B2-7B49F33D3A60" name="T_SMO_PRODUTO_MODELO_T_SMO_PRODUTO_MARCA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>9A5C6037-3226-5CCD-7B53-D8F395232A9C</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFCE6A82-459E-2D9C-FD3F-059772B1AE25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

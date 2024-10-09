@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="872E4D25-D9B9-BBF1-C2B1-1ECCD05EF9EB" name="T_SMO_FUNCIONARIO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>8F032B15-2516-1510-ACD7-F70AE5C54A1C</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_funcionario" id="7B3B1961-2A82-BB6B-CD82-EE4B8A111987">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>4FCF6A7B-00B2-D8F4-346E-3F7006E6B7D0</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SMO_PESSOA_id_pessoa" id="CE1A2A32-5309-E339-F66D-D85962264623">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>48499D1F-BE21-AC4F-9A9A-D945BC237722</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="576D59E3-F564-487C-706B-2BC3B32AFFEB" referredColumn="8F8B48B0-CC45-BEB1-F9C1-C78A40A2B8B6"/>
+</associations>
+</Column>
+<Column name="T_SMO_FUNCIONARIO_CARGO_id_cargo" id="B9E0C711-8BCD-CC82-B50E-6487C01CD331">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>8BF92B9A-E4E8-2910-4CB9-12551573D8B8</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6360DCA-0E8F-5F69-ED8C-C33740614B9A" referredColumn="96A9E663-7D35-E243-028D-5006E8800D58"/>
+</associations>
+</Column>
+<Column name="data_entrada" id="140ECDE5-F2A6-7874-8BD6-8E7F00CE424C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>34549C95-2CA2-75D6-33D7-DFA93B6DED19</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_saida" id="A0AF99AA-B35B-FA96-FC71-75F85E70F0E0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>7EA25000-86C8-333D-F580-1EE8CE1C56B2</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31676763-C378-6DE4-4424-71ECBB9F79D6" name="T_SMO_FUNCIONARIO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>4B213579-4016-0AAC-0E21-204465F74E32</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B3B1961-2A82-BB6B-CD82-EE4B8A111987"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D0D6010-3F52-1C84-92C7-45AE283377D1" name="T_SMO_FUNCIONARIO__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>68170707-8E60-BD4F-68E6-BB1C01EF85EE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CE1A2A32-5309-E339-F66D-D85962264623"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA58C230-0CA9-382C-AEAF-4EF18B25F4BB" name="T_SMO_FUNCIONARIO__IDXv1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0F155877-FE61-2E0D-E8E2-AB1FAC180956</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B9E0C711-8BCD-CC82-B50E-6487C01CD331"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11EEF41C-E4EB-7031-93AC-E6DFE8B5156D" name="T_SMO_FUNCIONARIO_T_SMO_PESSOA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>68170707-8E60-BD4F-68E6-BB1C01EF85EE</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE1A2A32-5309-E339-F66D-D85962264623"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88A54965-9063-90E0-CF40-89FC56BA7F20" name="T_SMO_FUNCIONARIO_T_SMO_FUNCIONARIO_CARGO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>0F155877-FE61-2E0D-E8E2-AB1FAC180956</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9E0C711-8BCD-CC82-B50E-6487C01CD331"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

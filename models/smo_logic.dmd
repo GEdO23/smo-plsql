@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="smo_logic" id="E7A63C08-DA70-0F0B-011C-62B5D3DB4D47" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 13:56:14 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E7A63C08-DA70-0F0B-011C-62B5D3DB4D47</designId>
+</OSDM_Design>

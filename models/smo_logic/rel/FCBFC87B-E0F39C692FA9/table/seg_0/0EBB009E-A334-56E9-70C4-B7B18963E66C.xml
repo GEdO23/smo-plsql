@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EBB009E-A334-56E9-70C4-B7B18963E66C" name="T_SMO_PESSOA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>FB573382-A744-4BD7-7270-7098964B6316</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pessoa" id="8F8B48B0-CC45-BEB1-F9C1-C78A40A2B8B6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>50A7F8ED-F657-5041-B6D7-63BF9F8E27A9</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="AB301992-8829-CC69-EF7B-33A5B3918D25">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>25EB49B0-4B5A-4327-544D-42E38FA07E7E</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CDF70BB7-9218-0253-A4BB-0E5EF16B150D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>E0143825-31C6-B639-7EE7-E342058AC7F1</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="3EA7F4CC-8A35-2BD3-42DF-3F2FF5BB1E36">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>0249BE71-649B-47FB-7CA0-6E33EBABED55</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="912020F3-A1D7-1A8C-0954-0B86D880707C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>FC8FD56D-723D-1A76-86D7-48714A57C39C</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="1C2D83F3-33D1-B8D4-66CF-C9D8EDCB3937">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>DC3F2C3E-7E6E-6BE4-E372-0700937003E9</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E85F40E-1AB2-3DC7-31B8-551CA3DA3A2D" name="T_SMO_PESSOA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>8C2DABEA-3B57-D4F5-3B9A-FE4DBE65200E</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F8B48B0-CC45-BEB1-F9C1-C78A40A2B8B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

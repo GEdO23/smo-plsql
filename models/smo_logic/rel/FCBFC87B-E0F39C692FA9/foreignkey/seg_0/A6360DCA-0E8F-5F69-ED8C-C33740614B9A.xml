@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6360DCA-0E8F-5F69-ED8C-C33740614B9A" containerWithKeyObject="872E4D25-D9B9-BBF1-C2B1-1ECCD05EF9EB" localFKIndex="88A54965-9063-90E0-CF40-89FC56BA7F20" name="T_SMO_FUNCIONARIO_T_SMO_FUNCIONARIO_CARGO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>0F155877-FE61-2E0D-E8E2-AB1FAC180956</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<referredTableLongName>T_SMO_FUNCIONARIO_CARGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>125B3C84-C570-8298-B84B-696AC51A229E</referredTableID>
+<keyObject>AE8765ED-794C-7350-59B5-8F5D2803DA7D</keyObject>
+<referredKeyID>AE8765ED-794C-7350-59B5-8F5D2803DA7D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cargo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

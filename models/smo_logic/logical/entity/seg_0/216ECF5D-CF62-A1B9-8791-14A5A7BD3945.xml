@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="216ECF5D-CF62-A1B9-8791-14A5A7BD3945" name="T_SMO_PRODUTO_MODELO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:10:45 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_modelo" id="01ABFACD-A10A-C53B-D4E2-22A0108B19C9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:13:57 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_marca" id="6CDB6A18-8ABC-7760-9CAC-0424CFF57C52">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:15:04 UTC</createdTime>
+<generatorID>9A5C6037-3226-5CCD-7B53-D8F395232A9C</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<referedAttribute>31602FD7-9EE1-9688-C47F-AF223B97AD76</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="EF63FABC-A473-145D-5431-3ABCA2EFC5D5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:14:03 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3354B27E-E7E6-D877-D9AE-18438C216067" name="T_SMO_PRODUTO_MODELO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:14:02 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>01ABFACD-A10A-C53B-D4E2-22A0108B19C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

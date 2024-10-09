@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="071C2D40-166A-D933-C4E5-7C5B0CC682A6" name="T_SMO_CLIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:03:00 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="B745B77B-7797-6D34-0866-F436C454122F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:03:09 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pessoa" id="B31386FF-F616-E821-83AB-29B91892C57E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:05:31 UTC</createdTime>
+<generatorID>BA64CF31-FBAF-3693-E15A-9BFE54DFCB94</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<referedAttribute>50A7F8ED-F657-5041-B6D7-63BF9F8E27A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="759DD8E1-579D-5AD2-6EFE-D637AC35563A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:03:15 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="03FF22B4-3E28-03AD-1046-CBB1D4CABF18">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:03:42 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8843604A-8BEB-BDAD-8D44-502604266B49" name="T_SMO_CLIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:03:14 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<engineerTo>
+<item key="FCBFC87B-3A54-7713-DC9C-E0F39C692FA9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B745B77B-7797-6D34-0866-F436C454122F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

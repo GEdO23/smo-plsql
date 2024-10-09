@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBB09B1D-C642-F917-3EC9-C38D62CDE96E" name="T_SMO_PRODUTO_AVALIACAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>19D5F812-3F96-2094-300C-FF195633AC6F</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_avaliacao" id="E383DDEC-F4CD-CCC9-FCBD-AF38118BC817">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>806413C2-3632-4FBF-BB69-8685366CA855</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SMO_PRODUTO_id_produto" id="483B5F59-2B22-665F-4291-F083121BD9C4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>74248132-8C01-8972-3C37-A065196CC2B8</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="689BE070-FDBB-80F9-52B2-ADDB3CFE6AFA" referredColumn="519DC7C7-A49A-D500-8300-8B346BC0438C"/>
+</associations>
+</Column>
+<Column name="T_SMO_PESSOA_id_pessoa" id="828448A2-9494-D7C4-DB20-DCADC8276B25">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>926E2503-C73A-2B38-762B-D1A2C576B3CB</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1C353D6-F8FB-3A0E-DA74-46049D7C23A8" referredColumn="8F8B48B0-CC45-BEB1-F9C1-C78A40A2B8B6"/>
+</associations>
+</Column>
+<Column name="estrelas" id="ADEFB2F8-3B24-F188-13FB-E9B099F5A66A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>8F2EF373-1C92-542B-B8EF-9C8DF8489014</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="81777E57-326E-8021-BDFF-839E9332FCBF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>A9CF0649-C93C-B4C8-FF70-4D919E1B181D</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89869BF9-01BE-07B3-C5CA-CBB5D94D75D8" name="T_SMO_PRODUTO_AVALIACAO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>E3976EFC-7447-8FEA-279B-7E9A7F47E202</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E383DDEC-F4CD-CCC9-FCBD-AF38118BC817"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="398716C3-A987-DC97-FE31-C3D75DCD40CF" name="T_SMO_PRODUTO_AVALIACAO__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8785DE6C-4ED3-09DE-9486-8758EA1EB34E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="828448A2-9494-D7C4-DB20-DCADC8276B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B3AC332-2319-A436-5DD6-8D10609B5BA9" name="T_SMO_PRODUTO_AVALIACAO__IDXv1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>899606DE-5E74-D413-66CA-80C4F3693FF5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="483B5F59-2B22-665F-4291-F083121BD9C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70855849-77B6-5C12-EAF2-C3274BBF6051" name="T_SMO_PRODUTO_AVALIACAO_T_SMO_PESSOA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>8785DE6C-4ED3-09DE-9486-8758EA1EB34E</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="828448A2-9494-D7C4-DB20-DCADC8276B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C9909F2-C3AB-CA8D-E349-03972A7958C2" name="T_SMO_PRODUTO_AVALIACAO_T_SMO_PRODUTO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>899606DE-5E74-D413-66CA-80C4F3693FF5</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="483B5F59-2B22-665F-4291-F083121BD9C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

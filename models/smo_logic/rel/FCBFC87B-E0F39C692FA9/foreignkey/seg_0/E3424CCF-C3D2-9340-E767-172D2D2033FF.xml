@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3424CCF-C3D2-9340-E767-172D2D2033FF" containerWithKeyObject="90FD4F30-B3F6-4D0F-4DCF-22C440D32DB0" localFKIndex="ADB96D88-BDC4-D2D2-76B2-7B49F33D3A60" name="T_SMO_PRODUTO_MODELO_T_SMO_PRODUTO_MARCA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>9A5C6037-3226-5CCD-7B53-D8F395232A9C</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<referredTableLongName>T_SMO_PRODUTO_MARCA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>62FDCFCF-B5EC-6005-936F-F9B4B9EC466D</referredTableID>
+<keyObject>7BD1830B-3B7C-A129-F15E-741315B975ED</keyObject>
+<referredKeyID>7BD1830B-3B7C-A129-F15E-741315B975ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_marca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

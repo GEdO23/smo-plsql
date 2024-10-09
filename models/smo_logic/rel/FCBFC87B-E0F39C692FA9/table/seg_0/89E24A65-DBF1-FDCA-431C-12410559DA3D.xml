@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89E24A65-DBF1-FDCA-431C-12410559DA3D" name="T_SMO_PRODUTO_CATEGORIA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>42243170-DB8E-47F9-72B9-960555A34D7C</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="70D5B155-42CF-55F6-2F31-0916634E4911">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>D9E8225C-FD6B-E695-DD31-B5B40E781964</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SMO_PRODUTO_DEPARTAMENTO_id_departamento" id="2E65A4D5-CA2F-F8F5-6838-025DBCC3D431">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>882CB0D0-46EA-814B-DEDE-B2A5C02430D4</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8041E07-18C6-22B7-B6E7-471389189045" referredColumn="359B6F23-DA16-D0B5-CF03-22185626EF00"/>
+</associations>
+</Column>
+<Column name="nome" id="D8ECA7CE-4CA4-1C06-C152-2113FEA2CD88">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>60952740-E464-4CBB-3B18-84214E818583</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="4D34D7F3-FC99-FE1B-C21A-4F0DD761532E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>E1836E70-1266-30A1-4D10-E00801E64BC3</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD6A4D59-FCFA-4E78-11C0-09F14EF52311" name="T_SMO_PRODUTO_CATEGORIA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>41B6BE18-3DFC-C128-4F38-6006988AA6D0</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70D5B155-42CF-55F6-2F31-0916634E4911"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85DC6BC3-4990-601B-45B5-BC427C4BF4C7" name="T_SMO_PRODUTO_CATEGORIA__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>54006231-929D-7D72-7CF1-DB43F43BD87A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2E65A4D5-CA2F-F8F5-6838-025DBCC3D431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1670202-D8F0-011A-3FC9-CD5747723B8E" name="T_SMO_PRODUTO_CATEGORIA_T_SMO_PRODUTO_DEPARTAMENTO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-09 14:18:04 UTC</createdTime>
+<generatorID>54006231-929D-7D72-7CF1-DB43F43BD87A</generatorID>
+<ownerDesignName>smo_logic</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E65A4D5-CA2F-F8F5-6838-025DBCC3D431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
